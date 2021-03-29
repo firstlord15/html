@@ -1,0 +1,25 @@
+body {
+	background-color: #131b28;
+	color: white;
+	text-align: center;
+}
+
+main p {
+	color: #5b6b9a;
+}
+
+footer span {
+	font-size: 20px;
+}
+
+div {
+	height: 1px;
+	background-color: red;
+	width: 30px;
+	margin-left: auto; /* хз почему но для таких как div надо отдельно давать значения движения, это для движения в лево*/ 
+	margin-right: auto; /* с двух сторон делаем для  */  
+}
+
+h1 {
+	font-size: 35px;
+}

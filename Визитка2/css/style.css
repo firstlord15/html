@@ -1,0 +1,28 @@
+body {
+	font-family: Arial, sans-serif;
+}
+
+h2 {
+	font-size: 80px;
+}
+
+p span {
+	font-size:  50px;
+	text-align: right;
+
+}
+
+
+
+p{
+	margin-left: 990px;
+	text-align: right;
+}
+
+div{
+	height: 35px;
+	background-color: #10A5EE;
+	width: 350px;
+	margin-left:auto;
+
+}

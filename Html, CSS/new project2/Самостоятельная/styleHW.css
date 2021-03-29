@@ -1,0 +1,30 @@
+html {
+	background: url(image/image3.jpeg);
+	text-align: center;
+	width: 1300px;
+}	
+
+input{
+	padding: 5px;
+	width: 20%;
+	border-radius: 5px;
+	box-sizing: border-box; /* хз */
+	
+}
+
+label{
+	font-weight: bold;
+	color: white;
+}
+
+span{
+	font-style: italic;
+}
+
+button{
+	width: 70px;
+	padding: 10px; 
+	border-radius: 20px;
+	background-color: white;
+	font-weight: bold
+}

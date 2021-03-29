@@ -1,0 +1,75 @@
+.container {
+	padding: 30px;
+}
+
+header {
+	background-image: url(img/img5.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 1px -230px;
+	padding: 40px;
+}
+
+header img {
+	position: relative;
+    bottom: 40px;
+    width: 250px;
+}
+
+
+.menu {
+	display: flex;
+	justify-content: space-evenly;
+	padding: 0; /* тут были свои характеристики и мы их убрали */
+	margin: 0; /* тут тоже */
+	list-style: none; /* убирает точки при <ul> */
+}
+
+.logo {
+	text-align: center; 
+	/*width: fit-content;*/ /* делат так чтобы margin работал, но лучше text-align: center; */
+}
+
+.menu a {
+	text-decoration: none;
+	color: black;
+	padding: 15px 60px;
+	border-radius: 5px;
+	background-color: rgba( 255,255,255, 0.5); /* rgba добовляет еще и прозрачность */
+	position: relative;
+	bottom: 40px;
+}
+
+.menu a.active {
+	background-color: ;
+}
+
+.menu a:hover {
+	background-color: white;
+}
+
+.img {
+	display: block;
+	width: 200px;
+	padding bottom: 10px;
+	margin-top: 25px;
+}
+
+.imgs {
+	background-color: #777613;
+    max-width: 210px;
+    padding: 25px;
+}
+
+.Text {
+    position: absolute;
+    right: 89px;
+    top: 210px;
+    left: 300px;
+}
+
+
+
+.Text p {
+	font-size: 21px;
+}

@@ -1,0 +1,79 @@
+img {
+	width: 100%;
+}
+
+.img-all {
+	position: absolute;
+}
+
+.bird {
+	width: 200px;
+	z-index: 2;
+	top: 764px;
+    left: 800px;
+    animation-name: br;
+    animation-duration: 30s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+}
+
+.tree {
+	width: 1200px;
+	top: 390px;
+	z-index: 1;
+	animation-name: tr;
+	animation-duration: 30s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+}
+
+.oblaka {
+	width: 1200px;
+	right: 0;
+	animation-name: ob;
+	animation-duration: 30s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+}
+
+@keyframes ob {
+	0% {
+		right: 0;
+	}
+
+	50% {
+		right: 550px;
+	}
+
+	100% {
+		right: 0;
+	}
+}
+
+@keyframes tr {
+	0% {
+		left: 0;
+	}
+
+	50% {
+		left: 400px;
+	}	
+
+	100% {
+		left: 0; 
+	}
+}
+
+@keyframes br {
+	0% {
+		left: 800px;
+	}
+
+	50% {
+		left: 1200px;
+	}	
+
+	100% {
+		left: 800px; 
+	}
+}

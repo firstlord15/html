@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>05-forms</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link  rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+</head>
+<body>
+	<div class="container jumbotron">
+		<main>
+			<div class="col-6 bg-light mr-auto ml-auto border"> <!-- mr - это margin-right,
+				ml - это mragin-left -->
+				<h1 style="font-family: sans-serif; font-weight: 500; font-size: 35px; padding-bottom: 15px;" class="text-center">05-Forms</h1>
+				<form method="GET" action>
+					<div class="form-group">
+						<label for="name">Name</label>
+						<input readonly="" class="form-control" id="name" type="text" name="name" required="" placeholder="Ratmir"> <!-- readonly="" это только для чтения -->
+					</div>
+
+
+					<div class="form-group row">
+						<label class="col-sm-2 col-form-label" for="surname">Surname</label>
+						<div class="col-sm-10">
+							<input class="form-control-plaintext" id="surname" type="text" name="surname" required="" placeholder="Ashimov">
+						</div>
+					</div>
+
+
+					<div></div>
+					<div class="form-group"> <!-- (form-group) дает некий отступ  -->
+						<label class="" for="login">Login</label>
+						<input class="form-control" id="login" type="email" name="login" placeholder="simpl.last@mail.ru" required>
+						<!-- form-control - украшает вид input -->
+					</div>
+					<div class="form-group">
+						<label class="" for="password">Password</label>
+						<input class="form-control" id="password" type="password" name="password" placeholder="***********" required>
+					</div>
+					<div class="form-group">
+						<label for="repassword">Repeat password</label>
+						<input class="form-control" id="repassword" type="password" name="repassword" placeholder="***********" required>
+					</div>
+					<div class="form-check">
+						<input class="form-check-input" id="remember" type="checkbox" name="remember">
+						<label class="form-check-label" for="remember">Remember Me</label>
+					</div>
+					<!-- <select class="form-group">
+						select - это список
+					</select> -->
+					<div class="form-group">
+						<button class="btn btn-dark">Save</button>
+					</div>
+					<!-- вся ифонрмация находиться в сайте bootstarp(откуда мы скачивали bootstarp) -->
+				</form>
+			</div>
+		</main>
+	</div>
+</body>
+</html>

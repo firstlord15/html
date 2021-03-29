@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Background</title>
+	<style type="text/css">
+		section {
+			height: 50vw;
+			background-repeat: no-repeat;
+		}
+
+		.image_norepeat {
+			background-image: url(img/1.jpg);
+			background-size: 450px;
+		}
+
+		.image_center {
+			background-image: url(img/1.jpg);
+			background-position: center;
+			background-size: 450px;
+		}
+
+		.image_full {
+			background-image: url(img/1.jpg);
+			background-position: center;
+			background-size:;
+		}
+
+		.gradient_fixed {
+			background: linear-gradient(to top, blue, red);
+			background-attachment:fixed;
+		} 
+
+		.image_fixed {
+			background-image:url(img/1.jpg);
+			background-attachment:fixed;
+		}
+		.grad_fix {
+			background: radial-gradient(yellow, blue);
+			background-attachment:fixed;
+	}
+
+	</style>
+</head>
+<body>
+	<header>
+		<h1>Background</h1>
+		<section class="image_norepeat"></section>
+		<section class="image_center"></section>
+		<section class="image_full"></section>
+		<section class="gradient_fixed"></section>
+		<section class="image_fixed"></section>
+		<section class="grad_fix" ></section>
+
+	</header>
+	
+</body>
+</html>

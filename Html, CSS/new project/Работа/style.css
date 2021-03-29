@@ -1,0 +1,19 @@
+form {
+	/*background-image: url(image/image.jpg); */ /*это изменения фона на любое фото которое я скачал*/ 
+	text-align: center; /* это держит все в центре*/
+	width: 300px; /* а это двигает текст от левого бока на правую, в зависимости от кол-во px. */
+}
+
+label{
+	/*background-color: ; - это для изменения цвета фона*/
+	text-decoration: underline; /*- меняет текст, его стиль и т.д.*/
+	/*margin-bottom: 10px;*/ /* Отсутп между labelами  */	
+}
+
+input{
+	width: 100%; /* таким образом мы укащываем размер input - относительно width to from*/
+	padding: 10px; /* Ширина "Внутрений отступ берет" - сказал*/
+	margin-bottom: 10px; /* Отсутп между inputами  */	
+	margin-top: 10px; /* хз */
+
+}

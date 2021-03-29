@@ -1,0 +1,44 @@
+body {
+	background: linear-gradient(to right, #f13376, #6e4ece);
+	background-size: cover;
+	max-width: 1200px;
+}
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.box {
+	margin: 15px;
+	max-width: 320px;
+	padding: 20px; 
+	background-color: rgba(255,255,255, 0.5); 
+}
+
+img {
+	float: left;
+	margin-right: 20px;
+	width: 180px;
+}
+
+h4 {
+	font-family: sans-serif;
+	font-size: 8.5px;
+	padding-right: 30px;
+}
+
+h2 {
+	font-family: sans-serif;
+	font-size: 15px;
+}
+
+h3 {
+	font-family: sans-serif;
+	font-size: 10px;
+	margin-bottom: 12px;
+}
+
+.w-100 {
+	width: 100%;
+}

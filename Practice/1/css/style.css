@@ -1,0 +1,58 @@
+/*.box {
+	background-color: red;
+	width: 100px;
+	height: 100px;
+	transition: 0.2s;
+	animation-name: left;
+	animation-duration: 5s;
+	animation-iteration-count: 2;
+}
+
+.box:hover {
+	background-color: lightgreen;
+}
+
+@keyframes left {
+
+	0% {
+		margin-left: 0;
+		margin-top: 0;
+	}
+
+	50% {
+		margin-left: calc(100% - 100px);
+		margin-top: 0;
+	}
+
+	100% {
+		margin-left: calc(100% - 100px);	
+		margin-top: 38%;
+	}
+}
+*/
+
+.box {
+	width: 50%;
+	height: 200px;
+	box-sizing: border-box;
+	border: 1px solid green;
+	background-color: orange; 	
+}
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 500px) {
+	.box {
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width: 700px) {
+	.box {
+		background-color: green;
+		border-color: orange;
+	}
+}

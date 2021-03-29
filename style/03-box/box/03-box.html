@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>BOX</title>
+	<style type="text/css">
+		div {
+			height: 300px;
+			width: 300px;
+			/*margin: 20px;*/ /* внешний отступ */
+			margin-left: auto; /* авто вроде до конца и если и right и left сделать auto то он будет по центру */
+			margin-right: auto; 
+/**/
+			margin-top: 40px;
+			margin-bottom: 20px;
+			border-radius: 50%;
+		}
+
+		.box1 {
+			box-shadow: 0 0 60px 0 red;
+			/*padding-top: 20px;
+			padding-left: 20px;
+			padding-bottom: 20px;
+			padding-right: 20px;*/
+			background-color: red;
+			/*padding: 10px;*/ /*внутрений отступ */
+			/*box-sizing: content-box; *//* это вроде не меняет положения текста. */
+			/*box-sizing: border-box; *//* а это в свою очередь не меняет положения коробки, а текст меняется */
+			/*border: 20px #888813;*/ /* обводит коробку и они тоже двигабт текст(content)
+			 */
+			/*border-right: 20px;
+			border-left: 20px;
+			border-top: 20px;
+			border-bottom: 20px;*/ 
+/*			border-right: 20px solid black; 
+			border-left: 20px solid black;
+			border-top: 20px;
+			border-bottom: 20px;
+			border-style: solid; *//* ввиды обводки */
+		} 
+
+		.box2 {
+			background-color: yellow;
+			/*border: solid;*/
+			box-shadow: 0 0 60px 0 yellow;
+		}
+
+		.box3 {
+			background-color: green;
+			/*border: solid;*/
+			box-shadow: 0 0 60px 0 green;
+		}
+		
+
+	</style>
+</head>
+<body>
+	<header>
+		
+
+	</header>
+
+	<main>
+		<h1>Box</h1>
+
+		<div class="box1"> </div>
+		
+		<div class="box2"></div>
+
+		<div class="box3"></div>
+
+	</main>
+
+	<footer>
+		
+
+	</footer>
+</body>
+</html>

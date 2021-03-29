@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Background</title>
+	<style type="text/css">
+		section {
+			height: 100vw; /* отступ между фонами */
+		}
+		.image { /* это так мы указываем class в CSS */
+			background-image:url(img/image2.jpg);
+			background-repeat: no-repeat; 
+			background-size: cover; /* хз */ 
+			background-position: center; /* так мы меняем положения фона */
+			background-attachment: fixed; /* он сделал так чтобы с какой стороны не глянь на фото она будет одинаковым, легче увидеть */
+
+		}
+
+		.red {
+			background-color: red;
+		} 
+		#lol {
+			color: red;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		
+	</header>
+
+	<main>
+		<center>
+			<h1>Background</h1>
+		</center>
+		<section class="image"><h1 id="lol">Hello</h1></section> <!-- section - это --> 
+		<section class="red"></section>
+		<section class="image"></section>
+		<section class="red"></section>
+
+	</main>
+
+	<footer>
+		
+	</footer>
+</body>
+</html>

@@ -1,0 +1,111 @@
+body {
+	color: black;
+}
+
+img {
+	width: 100%;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 20px;
+}
+.logo {
+	width: 70px;
+}
+
+.navbar {
+	background-color: black;
+	background-image: url("../img/navbar-color.jpeg"); 
+	color:white;
+	width: 100%;
+	position: sticky;
+	box-shadow: 0 5px 10px 0 rgba(0,0,0,0.5)
+}
+
+.navbar .container {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	
+}
+
+.nav-item a {
+	color:inherit !important; /* если использовать несколько css файлов, 
+	то это указывает, что это главный стиль */
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: bold;
+	border-bottom:2px solid transparent; 
+	transition: all 0.2s;
+}
+
+.nav-item a:hover, .nav-item a.active {
+	border-bottom:2px solid orange; 
+	color: orange !important; /* если использовать несколько css файлов, 
+	то это указывает, что это главный стиль */
+}
+
+.nav-items {
+	display: flex;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+.slider {
+	background-image: url("../img/slider.jpg");
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: cover;
+	height: 600px;
+	position: relative;
+	color: white;
+}
+.slider .opacity {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top:0;
+	right:0;
+	background-color: rgba(0,0,0,0.3);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.slider-text {
+	text-align: center;
+}
+.slider-text p {
+	font-size: 2rem;
+}
+
+.about {
+	display: flex;
+	align-items: center;
+}
+
+.box {
+	width: 50%;
+	padding: 10px;
+}
+
+.color-orange {
+	color: orange;
+}
+
+.copyright {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: black;
+	text-align: center;
+	color: white;
+	height: 70px;
+}
+
+.copyright p {
+	padding: 0;
+	margin: 0;
+}

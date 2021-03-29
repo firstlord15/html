@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Animatin-4.2</title>
+	<style type="text/css">
+		.container {
+			display: inline;
+		}
+		.crash {
+			width: 400px;
+			height: 100px;
+			background-color: black;
+			margin-left: auto;
+			margin-top: 100px;
+			animation-name: lite;
+			animation-duration: 10s;
+			animation-iteration-count: infinite;
+			animation-delay: 0;
+
+		}
+		.crash2 {
+			width: 400px;
+			height: 100px;
+			background-color: grey;
+			margin-top: -90px;
+		}
+
+		.shar {
+			width: 100px;
+			height: 100px;
+			background-color: red;
+			border-radius: 50px;
+			box-shadow: 0 0 10px 0 red;
+			margin-top: -100px;
+			animation-name: shar;
+			animation-duration: 3s;
+			animation-iteration-count: infinite;
+			animation-delay: 0;
+			margin-left: 315px;
+		}
+
+		@keyframes lite {
+			to { margin-left: 1700px; }
+		}
+
+		@keyframes shar {
+			0% {margin-left: 1500px; animation-timing-function: ease-out; } /* %0 - это указывает движение
+			 относительно его конец */
+			50% {margin-left: 10px; animation-timing-function: ease-in;} /* 50% - указывает его середину,
+			 но как меняется я хз */
+			100% {margin-left: 1500px; animation-timing-function: ease-out; background-color: #DC143C;}
+		}
+	</style>
+</head>
+<body>
+	<main>
+		<div class="container">
+			<div class="crash"></div>
+			<div class="crash2"></div>
+			<div class="shar"></div>
+		</div>
+	</main>
+</body>
+</html>

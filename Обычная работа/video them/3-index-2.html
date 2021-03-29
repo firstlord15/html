@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style type="text/css"> 
+		p {
+			color: rgb(255, 195, 0);
+			/* тут все пишеться на языке CSS и p{} - это параграф, который находиться в 16-18 строках */
+			/* color:; - это свойсвто света, rgb() - это значение света используя, возможно писать и просто blue, tomaato
+			(наверное)*/
+			font-size: 50%;/*20px;*/ /*1%;*/ /* 2rem - хз*/ /*2em - хз*/
+			/* font-size: ?px; - меняет размер, в процентах тоже можно(% относительно стандартного своего размера)*/
+			/* но есть тот <p> засунуть в <div> и отдельно написать в нем font-size: ?px;, 
+			то % будут относительно значение <div> */
+			/*rem - это значение х тиоп 2rem-2х в 2 раза больше*/
+			font-size: 1000px;
+			font-size: 3rem;/* глянь в инете (::root)*/
+		}
+
+		/*div{
+			font-size: 100px;
+		}*/
+	</style>
+	<title>Site to video</title>
+</head>
+<body>
+
+	<div> 
+		<p>
+			Ratmir
+		</p>
+	</div>
+	<!-- div это вроде коробки(просто выделяет чтобы потом взять ее, типо назвал какуюта главу важной
+	добавил в div и ) --> 
+
+	<iframe width="1067" height="600" src="https://www.youtube.com/embed/U27KYeJnrJI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	<!--То что выше, это ссылка для видео из ютуба, скопированный из самого ютуба-->
+
+	<!-- <video controls=""> для того чтобы видео работала -->
+	<video controls width="500"> 
+		<source src="my video.webm" type="video/webm"> <!-- Это для путь видео -->
+			
+	</video>
+	<audio controls>
+		
+		<source src="audio.mp3" type="audio/mp3"> <!-- Тут тоже самое что и с видео -->
+
+	</audio>
+	<div>
+		<p>
+			Ратмир
+
+		</p>
+
+	</div>
+</body>
+</html>

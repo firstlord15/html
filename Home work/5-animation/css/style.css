@@ -1,0 +1,75 @@
+.container {
+	max-height: 1000px
+}
+
+body {
+	animation-name: back;
+	animation-delay: 3s;
+	animation-duration: 6s;
+	animation-iteration-count: infinite;
+	background: linear-gradient(to right, #2fdc1b, #ff8100);
+}
+
+.Sun {
+	background-color: yellow;
+	box-shadow: 0 0 60px 10px yellow;
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+	margin-right: auto;
+	animation-name: sun;
+	animation-duration: 5.5s;
+	animation-delay: 3s;
+	animation-iteration-count: infinite;
+	max-height: 100px;
+	max-width: 100px;
+}
+
+
+.Moon {
+	background-color: #696969;
+	box-shadow: 0 0 60px 10px #808080;
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+	animation-name: moon;
+	animation-duration: 3.5s;
+	animation-iteration-count: infinite;
+	margin-top: 1000px;
+	max-height: 100px;
+	max-width: 100px;
+}
+
+@keyframes sun {
+	to {
+		margin-top: 100px;
+		animation-timing-function: ease-in;
+	}
+
+	from {
+		margin-top: 100%;
+		animation-timing-function: ease-out;
+	}
+}
+
+@keyframes moon {
+	to {
+		margin-top: 50px;
+		animation-timing-function: ease-out;
+	}
+
+	from {
+		margin-top: 100%;
+		animation-timing-function: ease-out;
+	}
+}
+
+@keyframes back {
+	to {
+		background: linear-gradient(to right, #2fdc1b, #ff8100);
+	}
+
+	from {
+		background: linear-gradient(to right, #3d1111, #423333);
+	}
+}

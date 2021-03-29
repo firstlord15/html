@@ -1,0 +1,36 @@
+animation-name: shar; /* имя анимации */
+animation-duration: 0.7s; /* продолжительность анимации */
+margin-top: 200px; 
+animation-iteration-count: infinite; /* это указывает кол-во повторений анимаций, 
+infinite - бесконечно */
+animation-delay: 1s; /* задержка перед повтором, анимации */
+
+@keyframes shar {
+			0% {margin-top: 500px; animation-timing-function: ease-out; } /* %0 - это указывает движение
+			 относительно его конец */
+			50% {margin-top: 10px; animation-timing-function: ease-in;} /* 50% - указывает его середину,
+			 но как меняется я хз */
+			100% {margin-top: 500px; animation-timing-function: ease-out;} /* 100% - указывает движение
+			 относительно его начала */
+			 /*animation-timing-function:; - указывает скорость, плавность функции*/
+		}
+
+пишеться она так: 
+@keyframes <переменная> { [ from | to | <проценты> ] [, from | to | <проценты> ]* };
+
+from {margin-left: 100px; /* from{} - это указывает от куда начинается
+to{margin-left: 100%;} /* to{} - как указывает типо куда, для движения
+
+transform: rotate(180deg);  поворачивает по правой наклонной 
+			и ее еденици измерения это 1deg = 1градус
+			transform: scale(2, 3); меняет ширину и длину по x and y
+			transform: translate(12px, 1%); двигает по x and y
+
+:hover - это задает анимацию при наводке мышью Exemple: 
+
+.box:hover {
+	margin: 20px;
+}
+
+transition: font-size 0.4s; - это указывает время за которое он заработает 
+для определенных анимаций 

@@ -1,0 +1,335 @@
+html {
+	background-color: #f5f5f5;
+}
+
+img {
+	width: 100%;
+}
+
+nav {
+	padding: 0rem!important;
+}
+
+.learn {
+	width: 130px;
+}
+
+.pages {
+	color: #0DC2EF;
+}
+
+.black {
+	color: black;
+	flex-wrap: pre-wrap;
+}
+
+.bu {
+	color: ;
+	background-color: #0BD1F5;
+	border-color: #0BD1F5;
+}
+
+.bu:hover {
+	opacity: 0.8;
+}
+
+.lol {
+	width: 100px;
+    display: block;
+}
+
+.person {
+	border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    margin-top: 5px;
+}
+
+.person-2 {
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+	float: left;
+	margin-right: 30px;
+}
+
+.h2-per-2 {
+	width: 300px;
+}
+
+.b-r {
+	position: absolute;
+	right: 130px;
+	padding: 25px 0px;
+	border-right: solid 1px #D7D7D7;
+}
+
+.b-r2 {
+	margin: 0;
+	padding: 25px 0;
+	padding-right: 20px;
+	padding-left: -20px;
+	border-right: solid 1px #D7D7D7;
+}
+
+.pad-r {
+	padding-right: 60px;
+	padding-left: 60px;
+}
+
+.pad-l {
+	padding-right: 250px;
+}
+
+.unline-none {
+	text-decoration: none;
+	font-size: 14px;
+}
+
+.black-div {
+	height: 300px;
+	font-family: sans-serif;
+}
+
+.boxes {
+	padding: 0 10px;
+}
+
+.box {
+	padding: 15px 0;
+    margin-left: 35px;
+    width: 400px;
+    height: 12em;
+}
+
+.logo {
+	background-image: url(img/slider.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: cover;
+	height: 800px;
+}
+
+.logo a:hover { 
+	background: rgb(53, 167, 110); 
+	border: 2px solid rgb(53, 167, 110);
+	color: white;
+}
+
+.white-dosk {
+	position: absolute;
+    background-color: rgba(255,255,255,0.85);
+    text-align: center;
+    padding: 33px 0;
+    padding-bottom: 70px;
+    right: 20em;
+    top: 25em;
+    width: 695px;
+    box-shadow: 0px 0px 5px 0.5px #2d2d2d;
+}
+
+.white-dosk p {
+	padding-top: 5px;
+	font-size: 15px;
+    font-family: sans-serif;
+    width: 38rem;
+    text-align: center;
+    margin: 0 auto;
+    color: #424242;
+}
+
+.white-dosk h2 {
+	font-weight: 500;
+	font-family: sans-serif;
+}
+
+.buti {
+	position: absolute;
+    right: 33.5em;
+    padding: 20px;
+    top: 36em;
+    background: rgb(64,199,129);
+    border: 2px solid rgb(64,199,129);
+    border-radius: 5px;
+    padding: 1em;
+    color: white;
+    text-decoration: none;
+    box-shadow: 0px 0px 5px 0px #2d2d2d;
+    transition: 0.1s;
+}
+
+.buti-text {
+	font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.last-buti {
+    background: #42a5f6;
+    border: 2px solid #42a5f6;
+    border-radius: 6px;
+    padding: 0.5em 1em;
+    color: white;
+    text-decoration: none;
+    box-shadow: 0px 0px 2px 0px #2d2d2d;
+    transition: 0.1s;
+}
+
+.last-buti:hover {
+	color: white;
+	background: #367db7;
+	border: 2px solid #367db7;
+}
+
+.icon {
+	margin-left: 1px;
+}
+
+.icons {
+	width: 60px;
+	height: 60px;
+}
+
+.icons-2 {
+	width: 90px;
+	height: 90px;
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 5px;
+}
+
+.icons-star {
+    width: 130px;
+    float: right;
+}
+
+.icons-last {
+	width: 30px;
+	height: 30px;
+	cursor: pointer;
+}
+
+.per .icons-star {
+	width: 130px;
+	float: left;
+}
+
+.icons-star svg {
+	color: #f9d200;
+	width: 15px;
+	height: 15px;
+}
+
+.circle svg {
+	color: #00a8f3;
+}
+
+.circle {
+	cursor: pointer;
+}
+
+.circles {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.content {
+	padding: 15px;
+	width: 350px;
+	font-size: 14px;
+	border: 1px solid grey;
+	background-color: #ffff;
+	border: 1px solid lightgrey;
+}
+
+.content h2 {
+	font-size: 20px;
+}
+
+.content p {
+	font-size: 13px;
+    font-family: sans-serif;
+}
+
+.contents {
+	display: flex;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+}
+
+.contents-2 {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.grey-text {
+	font-family: system-ui;
+    color: grey;
+    font-size: 16px;
+}
+
+.black-text {
+	font-family: system-ui;
+    color: black;
+    width: 200px;
+    font-size: 14px;
+    padding: 0;
+    margin: 0;
+}
+
+.title {
+	font-weight: 500;
+	font-family: sans-serif;
+}
+
+.w-my {
+	width: 250px;
+}
+
+.Logos {
+	height: 820px;
+}
+
+.Courses {
+	height: 550px;
+}
+
+.Feedback {
+	background-image: url(img/Feedback.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 400px;
+}
+
+.Feedback h2 {
+	background-color: rgba(255,255,255,0.85); 
+	width: 250px;
+	padding: 9px 5px;
+	font-size: 50px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.Feedback p {
+	background-color: rgba(255,255,255,0.85);
+    width: 501px;
+    padding: 3px 15px;
+    font-size: 22px;
+    font-family: sans-serif;
+    margin-left: auto;
+	margin-right: auto;
+}
+
+.width {
+	width: 60px;
+}
+.form-costum {
+	border: 2px;
+}
+
+.custom-input {
+	padding: 5px;
+	background-color: black;
+}

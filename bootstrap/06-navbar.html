@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>06-navbar</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+</head>
+<body>
+	<header>
+		<!-- navbar-expand-lg - [делает так чтобы все было на одной полосе(при размере lg)] -->
+		<!-- navbar - (стандартные настройки navbar) -->
+		<nav class="navbar navbar-expand-lg navbar-dark bg-dark"> <!-- navbar-dark - (делает текст и все остольное темной темы) --> 
+			<!-- bg-dark - (background - dark)-->
+			<div class="container">
+				<a class="navbar-brand" href="#">Itpark</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"> <!-- data-target - выполняет фунцияю for, и принимает значения id, в нашем случаи --> <!-- data-toggle="collapse", data-toggle - один из функции запускающий фунцию расскрытия, а collapse - плавное раскрытие --> 
+					<span class="navbar-toggler-icon"></span> <!-- это комбинация при определенном размере экрана, становиться ввиде кнопки менью -->
+				</button>
+				<div class="collapse navbar-collapse" id="navbarCollapse"> <!-- эта комбинация(collapse navbar-collapse), заставляет изчеснуть при определенном размере дисплея -->
+					<ul class="navbar-nav ml-lg-auto mr-auto"> <!-- [navbar-nav: в ul делает так, 
+						поставит все что внутри справа, сверху вниз(display: flex;)] -->
+						<li class="nav-item active">
+							<a class="nav-link" href="#">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">About</a> <!-- nav-link - [делает ссылки серыми, 
+							и светятся(немного) когда указываешь] -->
+						</li>
+						<li class="nav-item"> <!-- может комбинироваться с другими, 
+							а сам по себе ничего не делает -->
+							<!-- active - застваляет светиться(как будто поднесли мышку) -->
+							<a class="nav-link disabled" href="#">Contacts</a> <!-- disabled - заставляет не работать -->
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</header>
+
+	<div class="container jumbotron">
+		<main>
+			<h1>Navbar</h1>	
+		</main>
+	</div>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>

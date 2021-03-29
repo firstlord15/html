@@ -1,0 +1,66 @@
+body {
+	background-image: url(img/got4.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed; 
+}
+
+.container {
+	max-width: 1200px;
+	background-color: white;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 22px;
+	box-sizing: border-box;
+}
+
+.container h1 {
+	text-align: center;
+
+}
+
+.container h2 {
+	text-align: center;
+}
+
+.container {
+	font-size: 20px;
+}
+
+.persons li {
+	overflow: auto; /* двигает объекты в зависемости от фото или видео, если что проверь без него*/
+}
+
+.persons img {
+	float: left;
+	width: 190px;
+	height: 200px;
+	margin-right: 15px;
+}
+footer {
+	background-color: gray;
+	color: #fff0f0; 
+	margin-right: -20px;
+	margin-left: -20px;
+	margin-bottom: -20px;
+}
+
+footer div {
+	display: inline-block; /*  */
+	width: 33%;
+	vertical-align: top;
+	text-align: center;
+	box-sizing: border-box;
+	padding: 20px;
+	font-size: 16px;
+}
+
+.copy-right {
+	font-size: 15px;
+	background-color: black; 
+	width: 100%;
+}
+
+.copy-right:hover {
+	color: red;
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Flex Box</title>
+	<style type="text/css">
+		.w-100 {
+			width: 100%;
+		}
+
+		.container {
+			background-color: lightblue;
+			display: flex; /* просто тоже по линии, в стандарте, 
+			все остальные команды относящиеся к flex, работют из-за этой команды, наверое. */
+			justify-content: space-around;
+			height: 500px;
+			flex-wrap: wrap; 
+			/*justify-content:flex-start;*/ /* center, */
+			/*justify-content:flex-end;*/
+			/*justify-content:space-between;*/ 
+			/*justify-content:space-around;*/ /* этой командой удобно двигать по x координату. */
+			/*justify-content:space-evenly;*/ /*это выравнивает все ровно-ровно*/
+			justify-content:center;
+			/*align-items: center;*/
+			align-content: space-around; /* этим удобно двигать по координате y */
+
+		}
+
+		.box {
+			width: 100px;
+			/*flex-grow: 1;*/ /* это измеряет весь объем и разделяет на то сколько всех их, у кого больше значения
+			flex-grow - тот будет больше, а другие относительно меньше */ 
+			height: 100px;
+			background-color: yellow;
+			border: 1px solid lightgray;
+		}
+
+	</style>
+</head>
+<body>
+	<main>
+		<h1>Flex Box</h1>
+		<div class="container">
+			<div class="box">
+				
+			</div>
+			<div class="box">
+				
+			</div>
+			<div class="box">
+
+			</div>
+			<div class="w-100">	
+			</div>
+			<div class="box">
+
+			</div>
+			<div class="box">
+
+			</div>
+			<div class="box">
+
+			</div>
+			<div class="w-100"> <!-- они как невидемые стены отделяющие другие коробки -->
+				
+			</div>
+
+			<div class="box">
+
+			</div>
+			<div class="box">
+
+			</div>
+			<div class="box">
+
+			</div>
+
+		</div>
+	</main>
+	<footer>
+		
+
+	</footer>
+</body>
+</html>

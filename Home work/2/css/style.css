@@ -1,0 +1,47 @@
+body {
+	text-align: center;
+	background-image: url(img.png);
+	background-repeat: repeat-x; 
+}
+
+main {
+	background-position: top-right;
+	background-attachment: local; 
+	height: 90px;
+
+}
+main p {
+	font-family: sans-serif;
+	color: #ffcccc;
+	font-size: 28px;
+	height: 12px;
+	margin-top: 1px;
+	margin-bottom: 30px;
+}
+
+div {
+	background-color: grey; 
+	width:930px;
+	height:2px;
+	margin-left: auto; 
+	margin-right: auto;
+}
+
+footer span {
+	font-family: unset;
+	font-size: 70px;
+	color: grey;
+	margin-bottom:10px;
+}
+
+footer p {
+	font-size: 50px;
+	color: grey;
+	margin-bottom: 40px
+}
+
+#mobile {
+	font-size: 40px;
+	color: grey;
+	font-family: sans-serif;
+}

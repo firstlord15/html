@@ -1,0 +1,163 @@
+body {
+  width: 100%
+}
+
+
+
+
+.image1 {
+	background-image: url(img/image1.jpg);
+	background-attachment: fixed;
+	height: 50vw;
+	opacity: 0.85;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+.image2 {
+	background-image: url(img/image2.jpg);
+	background-attachment: fixed;
+	height: 54vw;
+	opacity: 0.85;	
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.image3 {
+	background-image: url(img/image3.jpg);
+	background-attachment: fixed;
+	height: 54.6vw;
+	background-repeat: no-repeat;
+	background-size: cover;
+	opacity: 0.85;	
+}
+
+.image1 p {
+	text-transform: uppercase;
+    font-family: monospace;
+    background-color: #27232b;
+    font-size: 45px;
+    padding: 15px;
+    padding-right: 25px;
+    padding-left: 25px; 
+    color: white;
+    opacity: 1;
+    letter-spacing: 10px;
+}
+
+.one {
+	white-space: wrap;
+	padding-bottom: 50px;
+	padding-top: 40px;
+	opacity: 1;
+}
+
+.one h1 {
+	text-align: center;
+	font-size: 40px;
+	color: #484848;
+	font-family: sans-serif;
+}
+
+.one h4 {
+	font-size: 22px;
+	text-align: center;
+	padding-left: 3%;
+	padding-right: 3%;
+	color: #484848;
+	font-weight: 350;
+}
+
+.two {
+	color: white;
+	font-size: 20px;
+	background-color: #27232b;
+	white-space: wrap;
+	padding-bottom: 5%;
+	padding-top: 5%;
+	padding-left: 60px;
+	padding-right: 60px;
+}
+
+.two h2 {
+	text-align: center;
+	font-family: sans-serif;
+	opacity: 1;
+}
+
+.two p {
+	text-align: center;
+	font-family: serif;
+	font-size: 18px;
+	letter-spacing: 1px;
+	opacity: 1;
+}
+
+.image2 h1 {
+	color: white;
+	text-align: center;
+	font-size: 50px;
+	padding-top: 10%;
+	padding-bottom: 10%;
+	font-weight: 100;
+	font-family: system-ui;
+	text-transform: uppercase;
+	letter-spacing: 20px;
+	opacity: 1;
+}
+
+.image2-h1 {
+	display: flex;
+	justify-content: center;
+	opacity: 1;
+}
+
+.image3 h1 {
+	color: white;
+	text-align: center;
+	font-size: 50px;
+	padding-top: 10%;
+	padding-bottom: 10%;
+	font-weight: 100;
+	font-family: system-ui;
+	text-transform: uppercase;
+	letter-spacing: 20px;
+	opacity: 1;
+}
+
+.image3-h1 {
+	display: ;
+	justify-content: center;
+	opacity: 1;
+}
+
+.three {
+	color: white;
+	font-size: 20px;
+	background-color: #27232b;
+	white-space: wrap;
+	padding-bottom: 5%;
+	padding-top: 5%;
+	padding-left: 60px;
+	padding-right: 60px;
+}
+
+
+.three h2 {
+	text-align: center;
+	font-family: sans-serif;
+	opacity: 1;
+}
+
+.three p {
+	text-align: center;
+	font-family: serif;
+	font-size: 18px;
+	letter-spacing: 1px;
+	opacity: 1;
+}
